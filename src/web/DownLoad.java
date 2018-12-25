@@ -39,6 +39,12 @@ public class DownLoad extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
+		
+		
+		
+		
 		// TODO Auto-generated method stub
 		//获取请求来的要下载的文件名字
 		String fileName=request.getParameter("filename");

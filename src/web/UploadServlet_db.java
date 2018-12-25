@@ -49,6 +49,8 @@ public class UploadServlet_db extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
+		System.out.println("doPost()");
 		request.setCharacterEncoding("utf-8");
 		//获取指定的文件
 		DiskFileItemFactory factory=new DiskFileItemFactory();
@@ -94,7 +96,7 @@ public class UploadServlet_db extends HttpServlet {
 			e.printStackTrace();
 		}
 		
-		
+		response.getWriter().println("haha");
 	}
 
 }
